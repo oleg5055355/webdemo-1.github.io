@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Dundrum College Restaurant</title>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+</head>
+
+<body>
+    <header>
+      <img src="Photo/logo.png" alt="Dundrum College Restaurant Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="Photo/home_icon.png" alt="Home"><br>Home</a></li>
+                <li><a href="menu.html"><img src="Photo/menu_icon.png" alt="Menu"><br>Menu</a></li>
+                <li><a href="about.html"><img src="Photo/about_icon.png" alt="About"><br>About</a></li>
+                <li><a href="contact.html"><img src="Photo/contact_icon.png" alt="Contact"><br>Contact</a></li>
+                <li><a href="gallery.html"><img src="Photo/gallery_icon.png" alt="Gallery"><br>Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <!-- Feedback Form -->
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="firstName1">First Name:</label>
+                <input type="text" id="firstName1" name="firstName1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName1">Last Name:</label>
+                <input type="text" id="lastName1" name="lastName1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phoneNumber1">Phone Number:</label>
+                <input type="tel" id="phoneNumber1" name="phoneNumber1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+                        <div class="form-group">
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" rows="6" maxlength="300" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023. DCFE. Oleh Kravets.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
